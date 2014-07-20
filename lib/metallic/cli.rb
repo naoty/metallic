@@ -8,5 +8,8 @@ module Metallic
     end
 
     register Metallic::Commands::New, "new", "new APPLICATION_NAME", "generate a template for new application"
+
+    desc "generate SUBCOMMAND ARGS...", "generate something"
+    subcommand "generate", Metallic::Commands::Generate
   end
 end
