@@ -1,0 +1,3 @@
+module Metallic
+  VERSION = "0.0.1"
+end
