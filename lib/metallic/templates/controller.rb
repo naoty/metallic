@@ -1,5 +1,3 @@
-require "sinatra/base"
-
 module <%= application_name.classify %>
   class <%= resource_name.classify.pluralize %>Controller < Sinatra::Base
     Metallic::Application.register_controller self

@@ -14,7 +14,12 @@ module Metallic
 
       desc "controller RESOURCE_NAME", "generate a template for new controller"
       def controller
-        template "controller.rb", "app/controllers/#{resource_name.pluralize}_controller.rb"
+        template "controller.rb", "app/controllers/#{resource_name.underscore.pluralize}_controller.rb"
+      end
+
+      desc "model RESOURCE_NAME", "generate a template for new model"
+      def model
+        template "model.rb", "app/models/#{resource_name.underscore.singularize}.rb"
       end
 
       private
