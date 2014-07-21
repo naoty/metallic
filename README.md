@@ -10,17 +10,22 @@ gem "metallic"
 
 ## Usage
 
-```shell
+```bash
 $ metallic new <Application name>
 ```
 
-```shell
+```bash
 $ metallic g controller <Resource name>
+```
+
+```bash
+$ metallic g model <Resource name>
+$ rake db:migrate
 ```
 
 ### Example
 
-```shell
+```bash
 $ metallic new todo
 $ cd todo
 $ bundle install
