@@ -1,0 +1,7 @@
+load "metallic/tasks/database.rake"
+
+namespace :db do
+  task :environment do
+  end
+end
+

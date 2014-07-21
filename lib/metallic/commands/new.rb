@@ -6,8 +6,9 @@ module Metallic
     class New < Thor::Group
       TEMPLATE_PATHS = %w(
         Gemfile
-        config.ru
+        Rakefile
         app/application.rb
+        config.ru
         config/database.yml
       )
 
