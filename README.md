@@ -1,6 +1,6 @@
 # Metallic
 
-Metallic is a template for Micro backend API.
+Metallic is a micro template for backend API.
 
 ## Installation
 
@@ -15,11 +15,11 @@ $ metallic new <Application name>
 ```
 
 ```bash
-$ metallic g controller <Resource name>
+$ metallic generate controller <Resource name>
 ```
 
 ```bash
-$ metallic g model <Resource name>
+$ metallic generate model <Resource name>
 $ rake db:migrate
 ```
 

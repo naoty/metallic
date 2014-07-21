@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Metallic::VERSION
   spec.authors       = ["Naoto Kaneko"]
   spec.email         = ["naoty.k@gmail.com"]
-  spec.summary       = %q{Micro backend API template}
-  spec.description   = %q{Metallic is Micro backend API template.}
+  spec.summary       = %q{Micro template for backend API}
+  spec.description   = %q{Metallic is a micro template for backend API.}
   spec.homepage      = "https://github.com/naoty/metallic"
   spec.license       = "MIT"
 
